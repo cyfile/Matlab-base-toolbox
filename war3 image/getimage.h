@@ -1,0 +1,1 @@
+__declspec(dllexport) void initReceiveFun(double x ,double z);

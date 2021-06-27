@@ -1,0 +1,12 @@
+Legend: 
+  * - An event occurred.
+  > - A write operation occurred.
+  < - A read operation occurred.
+ 
+1      Recording on 18-Dec-2013 at 22:38:17.381. Binary data in big endian format.
+2      > 3 single precision values.
+       bde147ae be6147ae bea8f5c3              0.11            0.22            0.33        
+3      < 3 single precision values.
+       bde147ae be6147ae bea8f5c3              0.11            0.22            0.33        
+4        Recording off.
+

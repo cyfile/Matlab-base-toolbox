@@ -1,0 +1,10 @@
+Legend: 
+  * - An event occurred.
+  > - A write operation occurred.
+  < - A read operation occurred.
+ 
+1      Recording on 18-Dec-2013 at 19:46:04.791. Binary data in little endian format.
+2      > 10 int16 values.
+3      < 7 int16 values.
+4        Recording off.
+

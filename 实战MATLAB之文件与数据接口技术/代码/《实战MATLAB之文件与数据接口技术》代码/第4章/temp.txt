@@ -1,0 +1,12 @@
+Day1
+temp1=13
+temp2=25
+temp3=16
+Day2
+temp1=14
+temp2=25
+temp3=16
+Day3
+temp1=14
+temp2=26
+temp3=17
