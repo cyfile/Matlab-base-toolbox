@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "frame save as matlab mat",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:\\MATLAB\\R2017b\\extern\\include/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "D:\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [
+                "-g"
+            ]
+        }
+    ],
+    "version": 4
+}
