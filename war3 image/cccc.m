@@ -6,9 +6,7 @@
 x = 133; y = 681; w = 255; h = 210; % 关于图片I的一些预定义参数
 Rteam = [255 3 3] ; Bteam =  [0 66 255];
 
-%% 使用memmapfile读取文件
-m = memmapfile('war3.dat',  'Writable',true);
-m.Format=  {'uint8',[3 w h],'img' };% 'uint8', 1, 'x'},
+
 
 while true
     %pause(10)
@@ -19,6 +17,7 @@ while true
         disp('wrong capture!')
         continue
     end
+    g=sum(I,3) == 765; %255*3;
     %%
     Rt = IMG(:,:,1)==Rteam(1) & IMG(:,:,2)==Rteam(2) & IMG(:,:,3)==Rteam(3);
     Bt = IMG(:,:,1)==Bteam(1) & IMG(:,:,2)==Bteam(2) & IMG(:,:,3)==Bteam(3);

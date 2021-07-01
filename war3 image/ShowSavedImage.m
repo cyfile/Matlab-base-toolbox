@@ -28,3 +28,11 @@ b = reshape(A,3,cx,cy) ;
 c = permute(b,[3,2,1]) ;
 d = flip(c, 3 ) ;
 imshow(flip(d, 1 ) )
+
+%%
+%% 使用memmapfile读取文件
+w = 255; h = 210;
+m = memmapfile('war3.dat',  'Writable',true);
+m.Format=  {'uint8',[3 w h],'img' };% 'uint8', 1, 'x'},
+IMG = uint8( permute(m.data.img,[3,2,1]) );
+imshow(IMG)

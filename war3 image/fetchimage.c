@@ -46,7 +46,7 @@ EXPORTED_FUNCTION void commandClick(double x, double y)
     SetCursorPos(x, y);
     mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0); // 按下
     // Sleep(100);
-    mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0); //弹起
+    mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0); // 弹起
 }
 
 EXPORTED_FUNCTION void endFetchImage()
@@ -103,18 +103,22 @@ EXPORTED_FUNCTION void initFetchImage(double x, double z)
 
 void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
 {
-    int a = mxGetScalar(prhs[0]);
-    double *b = mxGetPr(prhs[0]);
-    mexPrintf("get int parameter from input: %f %d \n", a, a);
-    mexPrintf("get first double element parameter from input: %f %d \n", b[0], b[0]);
-    mexPrintf("get second double element parameter from input:%f %d \n", b[1], b[1]);
+//     int a = mxGetScalar(prhs[0]);
+//     double *b = mxGetPr(prhs[0]);
+//     mexPrintf("get int parameter from input: %f %d \n", a, a);
+//     mexPrintf("get first double element parameter from input: %f %d \n", b[0], b[0]);
+//     mexPrintf("get second double element parameter from input:%f %d \n", b[1], b[1]);
 
     //////////////////////////////////////////
     //
     //////////////////////////////////////////
     if (!ResetEvent(hCaptureDoneEvent))
+    {
         MessageBox(NULL, L"Sets event object to nonsignaled failed!",
-                   L"title", MB_OK | MB_ICONWARNING);
+                   L"RessetEven wrong!", MB_OK | MB_ICONWARNING);
+        mexErrMsgIdAndTxt("MATLAB:FetchImage:ResetEvent",
+                          "function was wrongly initialized.\n");
+    }
 
     // DWORD dwWait = WaitForSingleObject(hCaptureDoneEvent, 5000);
     // mexPrintf("WaitForSingleObject return code[0 = signaled]: (0x%x)\n", dwWait);
@@ -122,7 +126,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
     PostThreadMessage(captureTID, WAITFORCAPTUER_THREAD_MSG, (WPARAM)NULL, (LPARAM)NULL);
 
     plhs[0] = mxCreateNumericArray(3, dims, mxUINT8_CLASS, mxREAL);
-    char *pimageOut = (char *)mxGetData(plhs[0]);
+    char *pImageOut = (char *)mxGetData(plhs[0]);
 
     DWORD dwWaitResult = WaitForSingleObject(hCaptureDoneEvent, 5000);
     mexPrintf("WaitForSingleObject return code[0x0 = signaled, 0x102 = time-out]: (0x%x)\n",
@@ -133,7 +137,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
         for (j = 0; j < cy; j++)
             for (i = 0; i < cx; i++)
             {
-                pimageOut[i * cy + j + k * cx * cy] = pImageMap[(j * cx + i) * 3 + 2 - k];
+                pImageOut[i * cy + j + k * cx * cy] = pImageMap[(j * cx + i) * 3 + 2 - k];
             }
 
     mexPrintf("Captured one image form window(0x%x)!\n", hwindowWar3);
