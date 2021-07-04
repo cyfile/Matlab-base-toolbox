@@ -1,0 +1,83 @@
+% 高斯脉冲（钟形脉冲）信号的傅立叶变换 Fourier transform of Gaussian Pulse
+% % %本脚本练习以下命令
+% % texlabel(sym)==texlabel(char(sym))
+% % simplify
+% % latex
+% % char(sym)
+% % pretty(sym)
+% % syms * positive real clear
+% % strrep(latex(sym), 'text', 'mbox')
+%%
+syms x w
+syms a pi positive
+f=pi^.5/a*exp(-(pi*x/a).^2);
+g=fourier(f);
+g2=int(f*exp(-1i*w*x),x,-inf,inf);
+
+text('Interpreter','latex',...
+ 'String',['$$',latex(simplify(f)),'$$'],...
+ 'Position',[.1 .9],...
+ 'FontSize',20)
+text('Interpreter','latex',...
+ 'String',['$$',latex(g),'$$'],...
+ 'Position',[.6 .9],...
+ 'FontSize',20)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+syms t f w
+syms tau  real
+Ft=exp(-(t/tau)^2);
+Fw=simplify(fourier(Ft,t,w));
+Ff=int(Ft*exp(-1i*2*pi*f*t),t,-inf,inf);
+
+text('Interpreter','latex',...
+    'String',['$$F(\omega) = \int_{-\infty}^\infty\!\!',latex(Ft),'e^{-j\omega t}dt=$$'],...
+    'Position',[.1 .7],...
+ 'FontSize',20)
+text('Interpreter','latex',...
+ 'String',['$$',latex(Fw),'$$'],...
+ 'Position',[.1 .5],...
+ 'FontSize',20)
+text('Interpreter','latex',...
+ 'String',['$$',latex(Ff),'$$'],...
+ 'Position',[.6 .5],...
+ 'FontSize',20)
+text('String',['F(\omega)=\int_{-\infty}^\infty',texlabel(Ft),'e^{-j\omegat}{\sld}t='],...%,texlabel(char(Ft),'=']),...
+ 'Position',[.1 .3],...
+ 'FontSize',20)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+syms w tau t clear
+syms tau positive
+
+ft=exp(-(t/tau)^2)*cos(w*t);
+fw=int(ft,t,-inf,inf);
+text('String',texlabel(fw),...
+ 'Position',[.1 .1],...
+ 'FontSize',20)
+
+syms tau real
+fw=int(ft,t,-inf,inf);
+
+text('Interpreter','latex',...
+    'String',['$', strrep(latex(fw), 'text', 'mbox'),'$'],...
+ 'Position',[.6 .1],...
+ 'FontSize',20)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+error('error')
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+syms z y lambda eta  clear
+syms eta
+syms z y  lambda  positive
+%syms y real
+
+fy=y/lambda/z;
+f=exp(1i*pi*eta^2/(lambda*z))*exp(-1i*2*pi*fy*eta);
+r=int(f,eta,-inf,inf)
+
+text('Interpreter','latex',...
+ 'String',['$$',latex(simplify(r)),'$$'],...
+ 'Position',[.1 .5],...
+ 'FontSize',20)

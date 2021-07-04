@@ -1,0 +1,146 @@
+蒲丰投针问题的证明 latex源文件
+
+% ----------------------------------------------------------------
+% Article Class (This is a LaTeX2e document)  ********************
+% ----------------------------------------------------------------
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage{amsmath,amsthm}
+\usepackage{amsfonts}
+\usepackage{ctex}
+\usepackage{graphicx}
+
+%%%%%%%%%%%%%%%%
+\renewcommand{\proofname}{证明}%\mbox{证明}
+% THEOREMS -------------------------------------------------------
+\newtheorem*{mythm}{问题描述}%Theorem
+
+% ----------------------------------------------------------------
+\begin{document}
+
+
+\section*{蒲丰投针问题的证明}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{mythm}
+
+    投针问题的描述为：在平面上有无穷多条水平方向上的平行线，其间距都等于 $D$ ，现把一根长为 $l(l<D)$的针随机地投在平面上，则这根针和平面上某条直线相交的概率是$\frac{2l}{\pi D}$。
+\end{mythm}
+%\includegraphics{BuffonNeedle.eps}
+
+\begin{figure}[h]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[scale=0.5]{BuffonNeedle.eps}\\
+  \caption{ \mbox{一次蒲丰投针实验} }
+\end{figure}
+
+\begin{proof}
+
+    由于针是随机地落在平面上，所以针在落下后朝向各个方向的概率是相同的。取针与垂直方向的锐角夹角为$\theta$，则显然有：
+
+\begin{equation}
+\theta \sim U[0,\frac{\pi}{2}]
+\end{equation}
+
+容易写出随机变量$\theta$，的概率密度为：
+
+\begin{equation}
+f_\theta(z)=\left\{ \begin{array}{ll}
+             \frac{2}{\pi} & 0\leq z \leq\frac{\pi}{2} \\
+             0 & \mbox{其他}
+           \end{array}\right.
+\end{equation}
+
+对上式积分可得$\theta$的概率分布:
+
+\begin{equation}
+F_\theta(z)=\left\{ \begin{array}{ll}
+             0 & z<0\\
+             \frac{2z}{\pi} & 0\leq z<\frac{\pi}{2} \\
+             1 & \frac{\pi}{2}\leq z
+           \end{array}\right.
+\end{equation}
+
+由于针与平行线相交的概率仅仅和针在垂直方向的投影有关，而针在水平方向的投影对于提高两者相交的概率没有贡献。故可构造新的随机变量$Y$来表示针在垂直方向上的投影的长度。为简便起见，我们可以设针的长度$l=1$。于是有：
+
+\begin{equation}
+  Y=Y(y)=\cos (\theta)\in[0,1]
+\end{equation}
+
+新的随机变量$Y$是随机变量$\theta$的函数，于是可以通过两者分布函数的关系,求出$Y$ 的分布：
+
+\begin{align}
+  F_Y(y) & =P\{Y\leq y\}=P\{\cos(\theta)\leq y\}\nonumber\\
+         & =P\{\theta\geq \arccos(y)\}=1-P\{\theta\leq \arccos(y)\}\nonumber\\
+         & =1-F_\theta(\arccos(y))=1-\frac{2}{\pi}\arccos(y)
+\end{align}
+
+即：
+
+\begin{equation}
+F_Y(y)=\left\{ \begin{array}{ll}
+             0 & y<0\\
+             1-\frac{2}{\pi}\arccos(y) & 0\leq y<1 \\
+             1 & 1\leq y
+           \end{array}\right.
+\end{equation}
+
+通过随机变量Y的概率分布，可以通过微分求得Y的概率密度：
+
+\begin{equation}\
+  f_Y(y)=F_Y'(y)=\left\{ \begin{array}{ll}
+             -\frac{2}{\pi}\arccos '(y) & 0 \leq y \leq 1 \\
+             0 & \mbox{其他}
+           \end{array}\right.
+\end{equation}
+
+当针在垂直方向上的投影长度是y的这个事件发生的情况下，容易算得针与平行线有交点这个事件发生的概率为$\frac y D$。设$C$表示针与平行线有交点这个事件。可用如下式子表示该条件概率：
+
+\begin{equation}
+  P\{C|Y=y\}=\frac y D
+\end{equation}
+
+
+根据连续型随机变量的全概率公式,可求得相交事件$C$发生的概率：
+
+\begin{align}
+P\{C\} & =\int_{-\infty}^{\infty}P\{C|Y=y\}f_Y(y)dy \nonumber\\
+       & =\int_0^1 -\frac{2y}{\pi D}\arccos '(y) dy \nonumber\\
+       & =\frac{2}{\pi D}\int_0^1 -y \arccos '(y) dy \nonumber\\
+       & =\frac{2}{\pi D}\int_0^1 \frac{-y}{\sqrt{1-y^2}} dy \nonumber\\
+       & =\frac{2}{\pi D}
+\end{align}
+
+可见单位长度的针与平行线相交的概率为$\frac{2}{\pi D}$。当针的长度为$l$的情况下，可以根据上述步骤求出相交概率为$\frac{2l}{\pi D}$
+\end{proof}
+
+\end{document}
+% ----------------------------------------------------------------
+
+
+
+
+
+
+
+ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+matlab画图程序
+
+close
+n=2;
+axis([0 1 -0.2  2.2])
+box on
+hold on
+plot([0;n],[0:n;0:n],'k','linewidth',5)
+plot([0.51;0.31],[0.5;1.2],'r','linewidth',5)
+plot([0.51;0.51],[0.2;1.5],'-.','linewidth',3)
+plot([0.51;0.31],[1.2;1.2],':','linewidth',2)
+
+k='\swarrow ^ \theta ';
+text(.47,1,['$$',k,'$$'],'Interpreter','latex','FontSize',50)
+
+set(gca,'xtick',[],'ytick',[])
