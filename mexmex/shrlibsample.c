@@ -16,7 +16,8 @@ HWND hWndObj;
 EXPORTED_FUNCTION unsigned int myFindWin(char *winClass,char *winName)
 {
     HWND hwin = FindWindowA(  (LPCSTR) winClass, (LPCSTR) winName );
-    return hwin ;
+    printf(" FindWindow : (0x%x)\n", hwin);
+    return ( unsigned int )(DWORD)hwin ;
 }
 
 EXPORTED_FUNCTION unsigned int postMouseMove(short x,short y)
@@ -26,6 +27,18 @@ EXPORTED_FUNCTION unsigned int postMouseMove(short x,short y)
     // double a = (double) hWndObj;
     return  hWndObj;
 }
+
+char buffer[20] = {'\x12', '\x13', '\x14', '\x15', '\x16', 1, 2, 3, 4, 5 ,'a','b'};
+EXPORTED_FUNCTION void assignUint8Array(unsigned char *x,int size)
+{
+    /* Multiple each element of the array by 3 */
+    //int i;
+    //for (i=0;i<size;i++)
+    //    *x++ = * (buffer+i);
+    memcpy ( x, buffer, size );
+}
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
 
 EXPORTED_FUNCTION void multDoubleArray(double *x,int size)
 {
@@ -159,6 +172,9 @@ EXPORTED_FUNCTION void printExportedDoubleValue(void)
     mexPrintf("The value of exportedDoubleValue is %f.\n",exportedDoubleValue);
 }
 
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
 /* this function exists so that mex may be used to compile the library
  * it is not otherwise needed */
 
@@ -182,8 +198,8 @@ void mexFunction( int nlhs, mxArray *plhs[],
     //plhs[0] = mxCreateDoubleMatrix(10,1,mxREAL);
     //double * outData = mxGetPr(plhs[0]);
     plhs[0] = mxCreateNumericMatrix(10, 1, mxUINT8_CLASS, mxREAL);
-    unsigned char * outData = mxGetPr(plhs[0]);
-//    mxUint8 * outData = mxGetUint8s(plhs[0]);
+     unsigned char * outData = (unsigned char *)mxGetPr(plhs[0]);
+ //  mxUint8 * outData = mxGetUint8s(plhs[0]);
     
 //     int k;
 //     for (k=0;k<10;k++)

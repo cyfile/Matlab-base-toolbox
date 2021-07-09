@@ -21,6 +21,8 @@ EXPORTED_FUNCTION unsigned int myFindWin(char *winClass,char *winName);
 
 EXPORTED_FUNCTION unsigned int postMouseMove(short x,short y);
 
+EXPORTED_FUNCTION void assignUint8Array(unsigned char *x,int size);
+
 EXPORTED_FUNCTION void multDoubleArray(double *,int);
 
 EXPORTED_FUNCTION double addMixedTypes(short,int,double);

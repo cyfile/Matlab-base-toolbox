@@ -1,5 +1,0 @@
-#dlladd.exports
-#此文件通知mbuild将dlladd.c生成dll文件
-#导出函数列表如下
-addDoubleS
-addDoubleV

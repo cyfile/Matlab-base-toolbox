@@ -34,10 +34,11 @@ imshow(flip(d, 1 ) )
 % fwrite(fileID, uint8(A(:)),'uint8');
 % fclose(fileID);
 
-m = memmapfile('war3.dat',  'Writable',true);
+m = memmapfile('war3.dat');
 m.Format=  {'uint8',[cy, cx ,3],'img' };% 'uint8', 1, 'x'},
 imshow(m.data.img)
 
 %%
+% save('war3_template.mat','IMG') 
 load war3_template.mat
 imshow(IMG);

@@ -1,8 +1,0 @@
-Legend: 
-  * - An event occurred.
-  > - A write operation occurred.
-  < - A read operation occurred.
- 
-1      Recording on 18-Dec-2013 at 19:45:37.522. Binary data in little endian format.
-2        Recording off.
-

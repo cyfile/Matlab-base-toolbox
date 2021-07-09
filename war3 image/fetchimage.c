@@ -44,8 +44,8 @@ EXPORTED_FUNCTION void commandClick(double x, double y)
     // upper left corner: x=134, y=682
     // lower right corner: x=342, y=889
     SetCursorPos(x, y);
+    Sleep(100);    
     mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0); // 按下
-    // Sleep(100);
     mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0); // 弹起
 }
 
