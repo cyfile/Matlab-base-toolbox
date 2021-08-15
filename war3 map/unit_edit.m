@@ -5,22 +5,28 @@ fprintf('file ID               : %s\n',char( typecast(A(1), 'uint8') ));
 fprintf('file version          : %d\n',A(2) );
 fprintf('subversion?           : %d\n',A(3) ) ;
 fprintf('number of units(items): %d\n',A(4) );
+unitN = double(A(4));
 %%
 % be careful! Each unit/item is defined by a data block of variable length
+unitN= 76;
 m = memmapfile('war3mapUnits.doo','Offset',4*4,'Writable', true,...
-    'Format',{'uint8',[111 44],'units'},'Repeat',1);
+    'Format',{'uint8',[111 unitN],'units'},'Repeat',1);
 A = m.Data.units;
 A(9:16,1:40)=position;
 m.Data.units=A;
 %%
-hhou=A(1:68,1);
-sloc=A(1:68,41);
-A(1:68,1:20)=repmat(sloc,1,20);
-A(1:68,41:44)=repmat(hhou,1,4);
-A(5,1:20)=0:19;
-A(38,1:20)=0:19;
-char(A(1:4,20))'
-char(A(1:4,44))'
+name =string(char(A(1:4,:)'));
+% ngad Goblin Laboratory
+% ntav Tavern
+% ngme Goblin Merchant
+% sloc
+ngad=A(1:4,41);
+ntav=A(1:4,53);
+ngme=A(1:4,65);
+A(1:4,41:52)=repmat(ntav,1,12);
+A(1:4,53:64)=repmat(ngme,1,12);
+A(1:4,65:76)=repmat(ntav,1,12);
+
 %% =================================================
 return
 %% =================================================

@@ -1,41 +1,25 @@
-192/2*128==12288;
 
+ss=[11008        9920        7872        5056        1728
+    1728        5056        7872        9920       11008];
+x = ss(1,:); y = ss(2,:);
+sx = [x,-y,-x,y];
+sy = [y,x,-y,-x];
+% plot(sx,sy)
 %%
-% r = 11264;
-% zz = pi/20:pi/10:pi/2;
-% xx = cos(zz);
-% fun = @(m) sum( 64*mod(m*xx,64)-mod(m*xx,64).^2  );
-% [r1,fval,exitflag,output] = fminbnd(fun,r-1024,r+512)
-% xxx = r1*xx
-% mod(xxx,64)
-% xxx - mod(xxx,64)
-%%
-R = zeros(1,10);
-for k = 0:8
-x2=11904-k*64;y2=1024+k*64;
-r = hypot(x2 ,y2);% 11904 ,1024
-z = (0:pi/10:pi/2-0.1)+ atan(y2/x2);
-xy =r * [cos( z ); sin( z )];
-d = mod(xy,64);
-R(k+1)=sum( prod( 64*d-d.^2  ) );
-end
-
-tmp=round(xy/64)*64
-gx = tmp(1,:);
-gy = tmp(2,:);
-
+gg=[11520       10624        8640        5824        2432
+    1152        4672        7744       10048       11328];
+x = gg(1,:); y = gg(2,:);
+gx = [x,-y,-x,y];
+gy = [y,x,-y,-x];
+% plot(gx,gy)
 
 %% VAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVAVVAVAVAVAVAVAVAVAV
-xx = [sx,-sy,-sx,sy];
-yy = [sy,sx,-sy,-sx];
-% plot(xx,yy)
-Ux1 = reshape( typecast( single( xx ), 'uint8') , 4 ,[]);
-Uy1 = reshape( typecast( single( yy ), 'uint8') , 4 ,[]);
-position = [Ux1; Uy1];
+
+Ux1 = reshape( typecast( single( sx ), 'uint8') , 4 ,[]);
+Uy1 = reshape( typecast( single( sy ), 'uint8') , 4 ,[]);
+% position = [Ux1; Uy1];
 %%
-xx = [gx,-gy,-gx,gy];
-yy = [gy,gx,-gy,-gx]; 
-% plot(xx,yy)
-Ux2 = reshape( typecast( single( xx ), 'uint8') , 4 ,[]);
-Uy2 = reshape( typecast( single( yy ), 'uint8') , 4 ,[]);
+Ux2 = reshape( typecast( single( gx ), 'uint8') , 4 ,[]);
+Uy2 = reshape( typecast( single( gy ), 'uint8') , 4 ,[]);
+%%
 position = [Ux1 Ux2;Uy1 Uy2];

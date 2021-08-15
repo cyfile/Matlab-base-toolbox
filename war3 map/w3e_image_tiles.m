@@ -14,11 +14,12 @@ for m=k
 end        
 %%
 B( r >19.5 & r<20.5)=5;
-B( r >43.5 & r<44.5)=5;
-%%
-% image(B),axis equal
-imshow(B,[])
+B( r >39.5 & r<40.5)=5;
 %%
 groundType=B;
+% image(B),axis equal
+% imshow(B,[])
+
+
 
 
