@@ -1,0 +1,72 @@
+Legend: 
+  * - An event occurred.
+  > - A write operation occurred.
+  < - A read operation occurred.
+ 
+1      Recording on 05-Sep-2021 at 18:00:31.753. Binary data in big endian format.
+2      > 35 uchar values.
+       47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 
+       48 6f 73 74 3a 20 62 61 69 64 75 2e 63 6f 6d 0d 
+       0a 0d 0a 
+3      * BytesAvailable event occurred at 05-Sep-2021 at 18:00:36.801.
+4      * BytesAvailable event occurred at 05-Sep-2021 at 18:00:36.813.
+5      * BytesAvailable event occurred at 05-Sep-2021 at 18:00:36.813.
+6      < 35 uint8 values.
+       47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 
+       48 6f 73 74 3a 20 62 61 69 64 75 2e 63 6f 6d 0d 
+       0a 0d 0a 
+7      > 35 uchar values.
+       47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 
+       48 6f 73 74 3a 20 62 61 69 64 75 2e 63 6f 6d 0d 
+       0a 0d 0a 
+8      < 35 uint8 values.
+       47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 
+       48 6f 73 74 3a 20 62 61 69 64 75 2e 63 6f 6d 0d 
+       0a 0d 0a 
+9      > 35 uchar values.
+       47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 
+       48 6f 73 74 3a 20 62 61 69 64 75 2e 63 6f 6d 0d 
+       0a 0d 0a 
+10     < 35 uint8 values.
+       47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 
+       48 6f 73 74 3a 20 62 61 69 64 75 2e 63 6f 6d 0d 
+       0a 0d 0a 
+11     > 35 uchar values.
+       47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 
+       48 6f 73 74 3a 20 62 61 69 64 75 2e 63 6f 6d 0d 
+       0a 0d 0a 
+12     > 35 uchar values.
+       47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 
+       48 6f 73 74 3a 20 62 61 69 64 75 2e 63 6f 6d 0d 
+       0a 0d 0a 
+13     > 35 uchar values.
+       47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 
+       48 6f 73 74 3a 20 62 61 69 64 75 2e 63 6f 6d 0d 
+       0a 0d 0a 
+14     > 35 uchar values.
+       47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 
+       48 6f 73 74 3a 20 62 61 69 64 75 2e 63 6f 6d 0d 
+       0a 0d 0a 
+15     < 140 uint8 values.
+       47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 
+       48 6f 73 74 3a 20 62 61 69 64 75 2e 63 6f 6d 0d 
+       0a 0d 0a 47 45 54 20 2f 20 48 54 54 50 2f 31 2e 
+       31 0d 0a 48 6f 73 74 3a 20 62 61 69 64 75 2e 63 
+       6f 6d 0d 0a 0d 0a 47 45 54 20 2f 20 48 54 54 50 
+       2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 62 61 69 64 
+       75 2e 63 6f 6d 0d 0a 0d 0a 47 45 54 20 2f 20 48 
+       54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 62 
+       61 69 64 75 2e 63 6f 6d 0d 0a 0d 0a 
+16     > 35 uchar values.
+       47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 
+       48 6f 73 74 3a 20 62 61 69 64 75 2e 63 6f 6d 0d 
+       0a 0d 0a 
+17     * BytesAvailable event occurred at 05-Sep-2021 at 18:07:31.456.
+18     * BytesAvailable event occurred at 05-Sep-2021 at 18:07:31.456.
+19     * BytesAvailable event occurred at 05-Sep-2021 at 18:07:31.456.
+20     < 35 uint8 values.
+       47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 
+       48 6f 73 74 3a 20 62 61 69 64 75 2e 63 6f 6d 0d 
+       0a 0d 0a 
+21       Recording off.
+

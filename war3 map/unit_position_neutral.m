@@ -1,21 +1,36 @@
-r0 = 70*64;
-
-rc=([8 9 9 6 9]-2)*128 ;
-zc=[30   105   180   250   320] ;
-
-z0 = 0:30:350;
+% round(a/64)*64
+% 'ntav', 3904.0, 3392.0,
+% 'ngad', 3840.0, 2176.0, 
+% 'ngme', 4608.0, 896.0,
+ 
+a=[ 3904.0, 3392.0
+ 3840.0, 2176.0
+ 4608.0, 896.0];
+p1 = [60    52
+    60    34
+    72    14]'*64;
+%        
+z=45;
+p23 =[cosd(z) -sind(z); 
+    sind(z) cosd(z)]*p1;
+%     cosd(2*z) -sind(2*z);
+%     sind(2*z) cosd(2*z);
+p = round([p1;p23]/64) * 64;
+x = p(1:2:end,:); 
+y = p(2:2:end,:);
+xx = [x;-y;-x;y];
+yy = [y;x;-y;-x];
 %%
-xx = [(rc(2)-2*128)*cosd(z0+zc(2));...
-    (rc(3)-2*128)*cosd(z0+zc(3));...
-    (rc(5)-2*128)*cosd(z0+zc(5))] + r0*cosd(z0);
-yy = [(rc(2)-2*128)*sind(z0+zc(2));...
-    (rc(3)-2*128)*sind(z0+zc(3));...
-    (rc(5)-2*128)*sind(z0+zc(5))] + r0*sind(z0);
-x=round(xx'/64) * 64;y=round(yy'/64)*64;
-plot(x(:),y(:),'o')
+a=24;
+plot(xx(1:a),yy(1:a),'o')
+axis equal
 %%
-Ux = reshape( typecast( single( x(:) ), 'uint8') , 4 ,[]);
-Uy = reshape( typecast( single( y(:) ), 'uint8') , 4 ,[]);
+xx=[xx;zeros(4,3)];
+yy=[yy;zeros(4,3)];
+plot(xx(:),yy(:),'o')
+%%
+Ux = reshape( typecast( single( xx(:) ), 'uint8') , 4 ,[]);
+Uy = reshape( typecast( single( yy(:) ), 'uint8') , 4 ,[]);
 %%
 m = memmapfile('war3mapUnits.doo','Offset',4*4,'Writable', true,...
     'Format',{'uint8',[111 76],'units'},'Repeat',1);

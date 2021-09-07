@@ -1,22 +1,21 @@
 a=192/2*128;
 [x,y]=meshgrid( -a:64:a );
-% x,y,r,1
 v = x+1i*y;
-r = abs(v);
+r0 = abs(v+32+32i);
 z = imag(log(v));
 z0 = abs(mod(z,pi/10)-pi/20);
 % imshow(z0,[])
 %%
-B=ones(size(r));
+B=ones(size(v));
 B(2:2:end,:)=0;
 B(1:4:end,2:2:end)=0;
 B(3:4:end,1:2:end)=0;
-%% SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+%
 D=B;
-D(r>a+64)=0;
+D(r0>a+32)=0;
 D(z0>0.11)=0; % pi/30+64/a
 %
-%%
+%% SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
 r = 100*128;
 z=(0:pi/10:2*pi-0.1);
 xx = r*cos(z);

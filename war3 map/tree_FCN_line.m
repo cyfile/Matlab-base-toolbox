@@ -11,6 +11,9 @@ if  mod( Z+45 , 180 )<=90
     
     row = -[y1,y2,yend];
     col = [x,x,xend];
+    
+    row = -[y1,yend];
+    col = [x,xend];
 else
     yend = 2*round(R * sind( Z )/128) ;
     xend = round( yend * cotd( Z ) ) ;
@@ -22,6 +25,9 @@ else
     
     row = -[y,y,yend];
     col = [x1,x2,xend];
+    
+    row = -[y,yend];
+    col = [x1,xend];
 end
 
 r0 = -yend;
