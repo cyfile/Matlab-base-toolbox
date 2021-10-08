@@ -1,0 +1,29 @@
+<tr>
+               <td>13:00:40</td>
+               <td>10.94</td>
+               <td>162</td>
+               <td>1491</td>
+               <td><span class="Ared">ÿÿ</span></td>
+               <td><span class="Ared">0.17</span></td>
+               <td><span class="Ared">1.58%</span></td>
+             </tr>
+             <tr>
+               <td>10:40:28</td>
+               <td>10.87</td>
+               <td>139</td>
+               <td>1278</td>
+               <td><span class="Agreen">ÿÿ</span></td>
+               <td><span class="Ared">0.10</span></td>
+               <td><span class="Ared">0.93%</span></td>
+             </tr>
+             <tr>
+               <td>10:25:48</td>
+               <td>10.90</td>
+               <td>124</td>
+               <td>1139</td>
+               <td><span class="Agreen">ÿÿ</span></td>
+               <td><span class="Ared">0.13</span></td>
+               <td><span class="Ared">1.21%</span></td>
+             </tr>
+             <tr>
+ 

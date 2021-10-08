@@ -1,0 +1,651 @@
+详细</th>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600000/index.shtml" target="_blank">600000</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600000/index.shtml" target="_blank">浦发银行</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600000" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>11.10</td>
+               <td>4001</td>
+               <td>36085</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.10</span></td>
+               <td><span class="Ared">0.91%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600000" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600016/index.shtml" target="_blank">600016</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600016/index.shtml" target="_blank">民生银行</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600016" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>10.22</td>
+               <td>2092</td>
+               <td>20468</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Ared">0.06</span></td>
+               <td><span class="Ared">0.59%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600016" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600018/index.shtml" target="_blank">600018</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600018/index.shtml" target="_blank">上港集团</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600018" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>6.05</td>
+               <td>2996</td>
+               <td>49450</td>
+               <td><span class="Ared">其他</span></td>
+               <td><span class="Agreen">-0.03</span></td>
+               <td><span class="Agreen">-0.49%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600018" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600030/index.shtml" target="_blank">600030</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600030/index.shtml" target="_blank">中信证券</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600030" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>12.76</td>
+               <td>1236</td>
+               <td>9687</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Agreen">-0.03</span></td>
+               <td><span class="Agreen">-0.23%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600030" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600037/index.shtml" target="_blank">600037</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600037/index.shtml" target="_blank">歌华有线</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600037" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>8.65</td>
+               <td>3310</td>
+               <td>38260</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.18</span></td>
+               <td><span class="Ared">2.13%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600037" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600066/index.shtml" target="_blank">600066</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600066/index.shtml" target="_blank">宇通客车</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600066" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>18.95</td>
+               <td>1103</td>
+               <td>5814</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Ared">0.67</span></td>
+               <td><span class="Ared">3.67%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600066" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600315/index.shtml" target="_blank">600315</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600315/index.shtml" target="_blank">上海家化</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600315" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>47.23</td>
+               <td>1469</td>
+               <td>3086</td>
+               <td><span class="Ared">其他</span></td>
+               <td><span class="Agreen">-1.12</span></td>
+               <td><span class="Agreen">-2.32%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600315" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600415/index.shtml" target="_blank">600415</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600415/index.shtml" target="_blank">小商品城</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600415" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>7.02</td>
+               <td>1138</td>
+               <td>16227</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Agreen">-0.09</span></td>
+               <td><span class="Agreen">-1.27%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600415" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600547/index.shtml" target="_blank">600547</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600547/index.shtml" target="_blank">山东黄金</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600547" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>22.92</td>
+               <td>1006</td>
+               <td>4400</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.41</span></td>
+               <td><span class="Ared">1.82%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600547" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600619/index.shtml" target="_blank">600619</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600619/index.shtml" target="_blank">海立股份</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600619" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>7.52</td>
+               <td>1003</td>
+               <td>13439</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.27</span></td>
+               <td><span class="Ared">3.72%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600619" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600640/index.shtml" target="_blank">600640</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600640/index.shtml" target="_blank">号百控股</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600640" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>17.00</td>
+               <td>1035</td>
+               <td>6101</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Agreen">-0.31</span></td>
+               <td><span class="Agreen">-1.79%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600640" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600643/index.shtml" target="_blank">600643</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600643/index.shtml" target="_blank">爱建股份</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600643" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>13.77</td>
+               <td>1632</td>
+               <td>11861</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.16</span></td>
+               <td><span class="Ared">1.18%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600643" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600648/index.shtml" target="_blank">600648</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600648/index.shtml" target="_blank">外高桥</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600648" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>49.29</td>
+               <td>6309</td>
+               <td>12891</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">1.08</span></td>
+               <td><span class="Ared">2.24%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600648" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600663/index.shtml" target="_blank">600663</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600663/index.shtml" target="_blank">陆家嘴</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600663" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>21.90</td>
+               <td>3444</td>
+               <td>15773</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">1.35</span></td>
+               <td><span class="Ared">6.57%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600663" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600705/index.shtml" target="_blank">600705</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600705/index.shtml" target="_blank">中航投资</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600705" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>18.00</td>
+               <td>1094</td>
+               <td>6050</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Ared">0.00</span></td>
+               <td><span class="Ared">0.00%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600705" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600822/index.shtml" target="_blank">600822</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600822/index.shtml" target="_blank">上海物贸</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600822" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>15.35</td>
+               <td>2601</td>
+               <td>17075</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.66</span></td>
+               <td><span class="Ared">4.49%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600822" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600827/index.shtml" target="_blank">600827</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600827/index.shtml" target="_blank">友谊股份</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600827" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>9.71</td>
+               <td>1602</td>
+               <td>16605</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.34</span></td>
+               <td><span class="Ared">3.63%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600827" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600831/index.shtml" target="_blank">600831</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600831/index.shtml" target="_blank">广电网络</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600831" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>8.73</td>
+               <td>1475</td>
+               <td>16785</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Ared">0.04</span></td>
+               <td><span class="Ared">0.46%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600831" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600832/index.shtml" target="_blank">600832</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600832/index.shtml" target="_blank">东方明珠</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600832" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>8.28</td>
+               <td>1056</td>
+               <td>12741</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Ared">0.10</span></td>
+               <td><span class="Ared">1.22%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600832" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600837/index.shtml" target="_blank">600837</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600837/index.shtml" target="_blank">海通证券</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600837" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>12.60</td>
+               <td>2369</td>
+               <td>18835</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Agreen">-0.03</span></td>
+               <td><span class="Agreen">-0.24%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600837" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600887/index.shtml" target="_blank">600887</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600887/index.shtml" target="_blank">伊利股份</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600887" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>41.45</td>
+               <td>1468</td>
+               <td>3553</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">1.45</span></td>
+               <td><span class="Ared">3.63%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600887" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh601288/index.shtml" target="_blank">601288</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh601288/index.shtml" target="_blank">农业银行</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh601288" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>2.55</td>
+               <td>1056</td>
+               <td>41314</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Ared">0.01</span></td>
+               <td><span class="Ared">0.39%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh601288" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh601866/index.shtml" target="_blank">601866</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh601866/index.shtml" target="_blank">中海集运</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh601866" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>3.03</td>
+               <td>1069</td>
+               <td>35278</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.09</span></td>
+               <td><span class="Ared">3.06%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh601866" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh601989/index.shtml" target="_blank">601989</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh601989/index.shtml" target="_blank">中国重工</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh601989" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>6.52</td>
+               <td>2258</td>
+               <td>34592</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Ared">0.03</span></td>
+               <td><span class="Ared">0.46%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh601989" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh603128/index.shtml" target="_blank">603128</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh603128/index.shtml" target="_blank">华贸物流</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh603128" target="_blank">股吧</a></td>
+               <td>09:30:36</td>
+               <td>16.30</td>
+               <td>1405</td>
+               <td>8679</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Agreen">-0.26</span></td>
+               <td><span class="Agreen">-1.57%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh603128" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz000159/index.shtml" target="_blank">000159</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz000159/index.shtml" target="_blank">国际实业</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sz000159" target="_blank">股吧</a></td>
+               <td>09:30:42</td>
+               <td>8.67</td>
+               <td>3326</td>
+               <td>38775</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.68</span></td>
+               <td><span class="Ared">8.51%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sz000159" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz000735/index.shtml" target="_blank">000735</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz000735/index.shtml" target="_blank">罗 牛 山</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sz000735" target="_blank">股吧</a></td>
+               <td>09:30:42</td>
+               <td>6.90</td>
+               <td>1675</td>
+               <td>24222</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.30</span></td>
+               <td><span class="Ared">4.55%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sz000735" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz000917/index.shtml" target="_blank">000917</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz000917/index.shtml" target="_blank">电广传媒</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sz000917" target="_blank">股吧</a></td>
+               <td>09:30:42</td>
+               <td>16.83</td>
+               <td>2575</td>
+               <td>15314</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.03</span></td>
+               <td><span class="Ared">0.18%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sz000917" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz000982/index.shtml" target="_blank">000982</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz000982/index.shtml" target="_blank">中银绒业</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sz000982" target="_blank">股吧</a></td>
+               <td>09:30:42</td>
+               <td>8.25</td>
+               <td>1067</td>
+               <td>12940</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Agreen">-0.92</span></td>
+               <td><span class="Agreen">-10.03%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sz000982" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz002024/index.shtml" target="_blank">002024</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz002024/index.shtml" target="_blank">苏宁云商</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sz002024" target="_blank">股吧</a></td>
+               <td>09:30:42</td>
+               <td>10.93</td>
+               <td>3251</td>
+               <td>29724</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.01</span></td>
+               <td><span class="Ared">0.09%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sz002024" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz002183/index.shtml" target="_blank">002183</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz002183/index.shtml" target="_blank">怡 亚 通</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sz002183" target="_blank">股吧</a></td>
+               <td>09:30:42</td>
+               <td>9.50</td>
+               <td>1540</td>
+               <td>16110</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Agreen">-0.06</span></td>
+               <td><span class="Agreen">-0.63%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sz002183" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz002355/index.shtml" target="_blank">002355</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz002355/index.shtml" target="_blank">兴民钢圈</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sz002355" target="_blank">股吧</a></td>
+               <td>09:30:42</td>
+               <td>10.05</td>
+               <td>1750</td>
+               <td>17625</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Agreen">-0.71</span></td>
+               <td><span class="Agreen">-6.60%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sz002355" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz002467/index.shtml" target="_blank">002467</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz002467/index.shtml" target="_blank">二六三</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sz002467" target="_blank">股吧</a></td>
+               <td>09:30:42</td>
+               <td>26.38</td>
+               <td>1588</td>
+               <td>6064</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">1.39</span></td>
+               <td><span class="Ared">5.56%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sz002467" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz002556/index.shtml" target="_blank">002556</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz002556/index.shtml" target="_blank">辉隆股份</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sz002556" target="_blank">股吧</a></td>
+               <td>09:30:42</td>
+               <td>9.95</td>
+               <td>3593</td>
+               <td>36178</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.31</span></td>
+               <td><span class="Ared">3.22%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sz002556" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600000/index.shtml" target="_blank">600000</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600000/index.shtml" target="_blank">浦发银行</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600000" target="_blank">股吧</a></td>
+               <td>09:31:06</td>
+               <td>11.08</td>
+               <td>2644</td>
+               <td>23847</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Ared">0.08</span></td>
+               <td><span class="Ared">0.73%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600000" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600016/index.shtml" target="_blank">600016</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600016/index.shtml" target="_blank">民生银行</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600016" target="_blank">股吧</a></td>
+               <td>09:31:06</td>
+               <td>10.24</td>
+               <td>1305</td>
+               <td>12755</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.08</span></td>
+               <td><span class="Ared">0.79%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600016" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600018/index.shtml" target="_blank">600018</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600018/index.shtml" target="_blank">上港集团</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600018" target="_blank">股吧</a></td>
+               <td>09:31:06</td>
+               <td>6.00</td>
+               <td>1165</td>
+               <td>19411</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Agreen">-0.08</span></td>
+               <td><span class="Agreen">-1.32%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600018" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600315/index.shtml" target="_blank">600315</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600315/index.shtml" target="_blank">上海家化</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600315" target="_blank">股吧</a></td>
+               <td>09:31:06</td>
+               <td>47.00</td>
+               <td>9404</td>
+               <td>19968</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Agreen">-1.35</span></td>
+               <td><span class="Agreen">-2.79%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600315" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600648/index.shtml" target="_blank">600648</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600648/index.shtml" target="_blank">外高桥</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600648" target="_blank">股吧</a></td>
+               <td>09:31:06</td>
+               <td>49.80</td>
+               <td>1997</td>
+               <td>4042</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">1.59</span></td>
+               <td><span class="Ared">3.30%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600648" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600663/index.shtml" target="_blank">600663</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600663/index.shtml" target="_blank">陆家嘴</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600663" target="_blank">股吧</a></td>
+               <td>09:31:06</td>
+               <td>21.90</td>
+               <td>2409</td>
+               <td>11000</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">1.35</span></td>
+               <td><span class="Ared">6.57%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600663" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600822/index.shtml" target="_blank">600822</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600822/index.shtml" target="_blank">上海物贸</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600822" target="_blank">股吧</a></td>
+               <td>09:31:06</td>
+               <td>15.43</td>
+               <td>3483</td>
+               <td>22874</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.74</span></td>
+               <td><span class="Ared">5.04%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600822" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600837/index.shtml" target="_blank">600837</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600837/index.shtml" target="_blank">海通证券</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600837" target="_blank">股吧</a></td>
+               <td>09:31:06</td>
+               <td>12.60</td>
+               <td>1579</td>
+               <td>12527</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Agreen">-0.03</span></td>
+               <td><span class="Agreen">-0.24%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600837" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh601866/index.shtml" target="_blank">601866</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh601866/index.shtml" target="_blank">中海集运</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh601866" target="_blank">股吧</a></td>
+               <td>09:31:06</td>
+               <td>3.00</td>
+               <td>1060</td>
+               <td>35140</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Ared">0.06</span></td>
+               <td><span class="Ared">2.04%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh601866" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz000159/index.shtml" target="_blank">000159</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz000159/index.shtml" target="_blank">国际实业</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sz000159" target="_blank">股吧</a></td>
+               <td>09:31:12</td>
+               <td>8.79</td>
+               <td>1886</td>
+               <td>21528</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.80</span></td>
+               <td><span class="Ared">10.01%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sz000159" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz002024/index.shtml" target="_blank">002024</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sz002024/index.shtml" target="_blank">苏宁云商</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sz002024" target="_blank">股吧</a></td>
+               <td>09:31:12</td>
+               <td>10.85</td>
+               <td>2248</td>
+               <td>20674</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Agreen">-0.07</span></td>
+               <td><span class="Agreen">-0.64%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sz002024" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600000/index.shtml" target="_blank">600000</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600000/index.shtml" target="_blank">浦发银行</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600000" target="_blank">股吧</a></td>
+               <td>09:31:46</td>
+               <td>11.07</td>
+               <td>3567</td>
+               <td>32213</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Ared">0.07</span></td>
+               <td><span class="Ared">0.64%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600000" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600016/index.shtml" target="_blank">600016</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600016/index.shtml" target="_blank">民生银行</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600016" target="_blank">股吧</a></td>
+               <td>09:31:46</td>
+               <td>10.25</td>
+               <td>1605</td>
+               <td>15665</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.09</span></td>
+               <td><span class="Ared">0.89%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600016" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600018/index.shtml" target="_blank">600018</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600018/index.shtml" target="_blank">上港集团</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600018" target="_blank">股吧</a></td>
+               <td>09:31:46</td>
+               <td>6.04</td>
+               <td>1089</td>
+               <td>18054</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Agreen">-0.04</span></td>
+               <td><span class="Agreen">-0.66%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600018" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600315/index.shtml" target="_blank">600315</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600315/index.shtml" target="_blank">上海家化</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600315" target="_blank">股吧</a></td>
+               <td>09:31:46</td>
+               <td>46.50</td>
+               <td>1012</td>
+               <td>2172</td>
+               <td><span class="Agreen">卖盘</span></td>
+               <td><span class="Agreen">-1.85</span></td>
+               <td><span class="Agreen">-3.83%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600315" target="_blank">查看</a></td>
+             </tr>
+             <tr>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600545/index.shtml" target="_blank">600545</a></td>
+               <td><a href="http://finance.ifeng.com/app/hq/stock/sh600545/index.shtml" target="_blank">新疆城建</a></td>
+			   <td><a href="http://guba.finance.ifeng.com/forumdisplay.php?code=sh600545" target="_blank">股吧</a></td>
+               <td>09:31:46</td>
+               <td>8.19</td>
+               <td>1476</td>
+               <td>18230</td>
+               <td><span class="Ared">买盘</span></td>
+               <td><span class="Ared">0.26</span></td>
+               <td><span class="Ared">3.28%</span></td>
+               <td><a href="http://app.finance.ifeng.com/hq/stock_bill.php?code=sh600545" target="_blank">查

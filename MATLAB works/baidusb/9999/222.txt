@@ -1,0 +1,49 @@
+fdgef
+
+;汇编指令实验 
+;定义端口E寄存器预定义
+GPIOREGS_PHYSICAL_BASE EQU  0x40E00000
+GPDR0_offset      EQU  (0x00C)  ; GPIO Direction registers
+GPSR0_offset   EQU  (0x018)  ; GPIO Set registers
+GPCR0_offset   EQU  (0x024)  ; GPIO Clear registers
+
+GAFR0_L                 equ     0x40E00054
+
+
+ AREA  Init,CODE,READONLY ;该伪指令定义了一个代码段，段名为Init，属性只读
+ ENTRY                    ;程序的入口点标识
+ResetEntry
+   
+    ldr r8,=GAFR0_L
+    ldr r7,[r8]
+    mvn r6,#(0x3c<<4)
+    and r7,r7,r6
+    str r7,[r8]
+
+
+ ldr r0, =GPIOREGS_PHYSICAL_BASE ;将寄存器GPIOREGS_PHYSICAL_BASE的地址存放到寄存器r0中
+ 
+ mov r2, #(3<<3) 
+ str r2, [r0, #GPDR0_offset]  ;设置GPIO3为输出
+     
+    mov r1, #(3<<3) 
+            
+ledloop
+ str r1, [r0, #GPSR0_offset]          ;置位GPIO3
+ 
+    bl   delay                ;调用延迟子程序
+ 
+ str r1, [r0, #GPCR0_offset]          ;清零GPIO3
+   
+ bl  delay                 ;调用延迟
+ b  ledloop                ;不断的循环，D4将不停的闪烁
+  
+;下面是延迟子程序
+delay
+ ldr r3,=0x0ffffff          ;设置延迟的时间
+delay1
+ sub r3,r3,#1              ;r3=r3-1           
+ cmp r3,#0x0               ;将r3的值与0相比较
+ bne delay1                ;比较的结果不为0（r3不为0），继续调用delay1,否则执行下一条语句
+ mov pc,lr                 ;返回
+    END                       ;程序结束符
