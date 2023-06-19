@@ -72,3 +72,9 @@ foresee = net({zeros(6,1)},Xi);
 % s=foresee1{2};
 % foresee2= net({zeros(6,1)},my(end-14:end-1));
 % s2=foresee2{1};
+
+%%%%%%%%%%%%%%%%%
+plot(cell2mat(X));
+n=feedforwardnet(20);
+view(n)
+view(net2)
