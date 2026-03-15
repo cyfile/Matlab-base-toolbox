@@ -12,15 +12,15 @@ if ~exist('symbol','var')
     symbol= '000001';
 else
     symbol =char(symbol);
-%         sh=['688' '600' '603' '601' '605' '689'];
-%         sz = ['300' '301' '000' '002' '001' '003'];
-%         bj = ['872' '836' '873' '837' '835' '830' '871' '838'
-%             '832' '833' '839' '430' '834' '831' '870']
+    %         sh=['688' '600' '603' '601' '605' '689'];
+    %         sz = ['300' '301' '000' '002' '001' '003'];
+    %         bj = ['872' '836' '873' '837' '835' '830' '871' '838'
+    %             '832' '833' '839' '430' '834' '831' '870']
     if symbol(1)=='6'
         market_id = '1';
     else
         market_id = '0';
-    end    
+    end
 end
 
 if ~exist('tim','var')
@@ -55,7 +55,8 @@ c = cell2table(vertcat(b{:}),'VariableNames',vName);
 r.code = a.data.code;
 r.name = a.data.name;
 r.date = c.date;
-r.kkk=[c.open,c.close,c.low,c.high];
+% r.kkk=[c.open,c.close,c.low,c.high];
+r.oclh=[c.open,c.close,c.low,c.high];
 
 
 % wday = weekday(c.date);

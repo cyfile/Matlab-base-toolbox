@@ -1,3 +1,4 @@
+return
 % sts = {'600728','736135','001328' ,'300846'}
 % a=cellfun(@(x) get30day(x),sts, 'UniformOutput',false);
 % cellfun( @(x) class(x),aa, 'UniformOutput',false);
@@ -10,7 +11,7 @@ stk_pool = ["601919", "601991", "688090", "000099", "000544", "002184"...
     "300424", "300440", "300456", "300519", "300527", "300674", "300774"...
     "300989", "301136", "301226", "301330"];
 % dbstop if error
-dt = datetime('2023-07-21 10:15:14','InputFormat','yyyy-MM-dd HH:mm:ss');
+% dt = datetime('2023-07-21 10:15:14','InputFormat','yyyy-MM-dd HH:mm:ss');
 % stks_info=arrayfun(@(x) get30day(x,dt),stk_pool);
 stks_info=arrayfun(@(x) get30day(x),stk_pool);
 % dbclear if error
@@ -19,13 +20,13 @@ a=arrayfun(@(x) x, 1:length(stk_pool),'uni',false);
 [stks_info.index]=deal(a{:});
 b=arrayfun(@(x) length(x.date), stks_info,'uni',false);
 [stks_info.N]=deal(b{:});
-
-g=arrayfun(@(x) x.kkk(end,2),stks_info,'uni',false);
+% x.oclh=[c.open,c.close,c.low,c.high];
+g=arrayfun(@(x) x.oclh(end,2),stks_info,'uni',false);
 [stks_info.last]=deal(g{:});
 
 % stks_info = rmfield(stks_info,'index2')
 for k = 1:length(stk_pool)
-    m = stks_info(k).kkk;
+    m = stks_info(k).oclh;
     len = stks_info(k).N;
     mask = hamming(len-1)'/sum(hamming(len-1));
     
@@ -55,10 +56,31 @@ T.index = {stks_info.index}';
 T.N = {stks_info.N}';
 
 B = sortrows(T,'marker');
-B(1:4,{'code','L'})
-B(end-3:end,{'code','L'})
+b=B(1:4,{'code','L'});
+s=B(end-3:end,{'code','H'});
 sprintf('%.2f',pi)
 return
+%%
+b_list = py.list(arrayfun(@(x) py.dict(x), table2struct(b),'uni',false)')
+try
+  res = pyrunfile("myio.py","z",action='b',data=b_list)
+catch e
+  e.message
+  if(isa(e,'matlab.exception.PyException'))
+    e.ExceptionObject
+  end
+end
+%%
+% s=pyrun("a=dict([('a',1),('b',2)])",'a')
+% s=py.dict({{'a',1},{'b',2}})
+s1 = py.dict(pyargs('action','s','code','001','price',229,'amount',391));
+s2 = py.dict(pyargs('action','s','code','001','price',229,'amount',391));
+s=py.list({s1,s2})
+
+
+
+
+
 %%
 clear classes
 tmp = 'myio';
@@ -73,8 +95,8 @@ ccc = stks_info(ind).code;
 web(['http://quote.eastmoney.com/concept/sz',ccc,'.html'], '-browser')
 %%
 % !"E:\Program Files\google\Chrome\Application\chrome.exe" www.baidu.com
-temp = mat2cell(stks_info(ind).kkk,stks_info(ind).N,[1,1,1,1]);
-% temp=arrayfun(@(x) stks_info(1).kkk(:,x), [1,2,3,4], 'UniformOutput', false);
+temp = mat2cell(stks_info(ind).oclh,stks_info(ind).N,[1,1,1,1]);
+% temp=arrayfun(@(x) stks_info(1).oclh(:,x), [1,2,3,4], 'UniformOutput', false);
 [OpenPrices,ClosePrices,LowPrices,HighPrices]=temp{:};
 
 candle(HighPrices,LowPrices,ClosePrices,OpenPrices,'b',stks_info(ind).date)
